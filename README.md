@@ -23,3 +23,4 @@ My goal is to find the correct answer within a reasonable amount of time (under 
 - Day 13: Tried matrix operations but failed, then found the reflection lines by checking all possible lines
 - Day 14: Calculating the tilt row by row, and found the answer by finding a cycle after each tilt cycle  
 - Day 15: Brute force calculate hash and update each box
+- Day 16: BFS by not re-visiting a position and heading in the same direction as before
