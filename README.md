@@ -25,3 +25,5 @@ My goal is to find the correct answer within a reasonable amount of time (under 
 - Day 15: Brute force calculate hash and update each box
 - Day 16: BFS by not re-visiting a position and heading in the same direction as before
 - Day 17: Graph transformation with layering and running Dijkstra's algorithm
+- Day 18: Find the corner coordinates of the simple polygon and use the Shoelace formula
+- Day 19: Generate all of the accepting ranges by backtracking from all of the accepting states
