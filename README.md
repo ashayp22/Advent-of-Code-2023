@@ -28,3 +28,4 @@ My goal is to find the correct answer within a reasonable amount of time (under 
 - Day 18: Find the corner coordinates of the simple polygon and use the Shoelace formula
 - Day 19: Generate all of the accepting ranges by backtracking from all of the accepting states
 - Day 20: Evaluate each pulse in FIFO (queue) order and determine when each of gf's inputs (kr, zs, qk, kf) output HIGH, and then finding Least Common Multiple of those values. This is because kr, zs, qk, kf must output HIGH in order for gf to output LOW to rf.
+- Day 21: Since the grid is a square and we expand from the center, the number of tiles covered grows quadratically for each factor of n, where n is the grid length. Hence, we can fit a quadratic function g from (0, f(65)), (1, f(65 + n)), (2, f(65 + 2*n)), and our final answer will be g(202300).
