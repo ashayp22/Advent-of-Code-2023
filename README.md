@@ -32,3 +32,4 @@ My goal is to find the correct answer within a reasonable amount of time (under 
 - Day 22: Originally tried to directly calculate which blocks supported which blocks using segment intersection, but that failed :( Switched to sorting bricks by minimum z-position and simulating each brick falling down 1 unit at a time until they collide with another brick.
 - Day 23: Run modifed DFS by visiting the same node in different paths (but not allowing cycles in a path) to explore all paths, and collapsing nodes that have two neighbors
 - Day 24: For part 1, check line intersection. For part 2, notice that we can arrive at a unique rock position/velocity with only 3 hailstones, and so we construct a system of 9 linear equations with 9 variables to solve for the rock's position.
+- Day 25: For part 1, use NetworkX implementation of the Stoer–Wagner algorithm to find the minimum cut. For part 2, Push the Big Red Button Again!
