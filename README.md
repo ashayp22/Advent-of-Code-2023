@@ -5,7 +5,7 @@ Solutions for each day are listed in the folder, and some days only contain the 
 
 ## Approaches
 
-My goal is to find the correct answer within a reasonable amount of time (under 3 minutes).
+My goal is to find the correct answer within a reasonable amount of time (as long as my attention span).
 
 
 - Day 1: String parsing
@@ -15,7 +15,7 @@ My goal is to find the correct answer within a reasonable amount of time (under 
 - Day 5: Backwards search from location to seed (took some time to run)
 - Day 6: Checked all possible button hold times and solved a corresponding quadratic equation 
 - Day 7: Main difficulty was creating a function to get the card's rank
-- Day 8: Used Least Common Multiple
+- Day 8: Found the number of steps required to reach a Z node from every A node, and then found the Least Common Multiple of these steps
 - Day 9: Iteration to calculate the sums on the sides of the triangle
 - Day 10: Parsed into a graph, expanded the graph by a factor of 2, and did a flood fill
 - Day 11: The shortest path between galaxies is always moving vertically, then horizontally
@@ -33,3 +33,5 @@ My goal is to find the correct answer within a reasonable amount of time (under 
 - Day 23: Run modifed DFS by visiting the same node in different paths (but not allowing cycles in a path) to explore all paths, and collapsing nodes that have two neighbors
 - Day 24: For part 1, check line intersection. For part 2, notice that we can arrive at a unique rock position/velocity with only 3 hailstones, and so we construct a system of 9 linear equations with 9 variables to solve for the rock's position.
 - Day 25: For part 1, use NetworkX implementation of the Stoer–Wagner algorithm to find the minimum cut. For part 2, Push the Big Red Button Again!
+
+![Screenshot of the Advent of Code 2023 website](./website.png)
